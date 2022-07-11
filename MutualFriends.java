@@ -12,6 +12,8 @@ public class MutualFriends {
 		String[] s1 = hm.get(num1);
 		String[] s2 = hm.get(num2);
 		
+		System.out.println("Person " +num1 +" & Person " +num2 +" Common Friends: ");
+		
 		for(int i = 0; i<s1.length; i++) {
 			for(int j = 0; j < s2.length; j++) {
 				if(s1[i].equals(s2[j])) {
